@@ -1,0 +1,40 @@
+# Frontend Development Guidelines
+
+## Responsive Design and Mobile-First Approach
+
+- Implement a mobile-first design strategy for all components and pages.
+- Ensure responsiveness across all screen sizes, from mobile devices to large desktop displays.
+- Use Tailwind CSS breakpoints consistently for responsive design.
+
+## Mobile and Tablet Header Layout
+
+- In mobile and tablet screen modes, implement a header with the following structure:
+  - Logo positioned on the left side of the header.
+  - Mobile menu (hamburger icon) positioned on the right side of the header.
+- Ensure the mobile menu is easily accessible and follows best practices for mobile UX.
+- Use Shadcn UI components or custom Tailwind classes to create a consistent and visually appealing header.
+
+## Desktop Header Layout
+
+- For desktop screens, adapt the header layout as needed while maintaining brand consistency.
+- Ensure smooth transitions between mobile/tablet and desktop layouts.
+
+## Page Creation and Verification
+
+- Before running the application, verify that all necessary pages have been created.
+- Implement a checklist or automated script to ensure all required pages are present.
+- Include comments at the top of each page file indicating its purpose and any dependencies.
+
+## Navigation and Routing
+
+- Implement consistent navigation patterns across all screen sizes.
+- Ensure that the mobile menu provides access to all main navigation items.
+- Use React Router or a similar routing solution to manage page navigation.
+
+## Testing Responsive Design
+
+- Regularly test the application on various devices and screen sizes.
+- Use browser developer tools to simulate different screen sizes during development.
+- Implement automated tests for responsive behavior where possible.
+
+Remember to thoroughly test the responsive design, especially the header layout and mobile menu functionality, across various devices and screen sizes. Prioritize a seamless user experience on mobile devices while ensuring the design scales effectively to larger screens.
